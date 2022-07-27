@@ -5,3 +5,6 @@
 - The slope of the linear model is not zero. Because of the correlation between variables and performance, we see the trend as a sloped line.
 - The linear model effectively predicts MPG performance effectively. Because we have significant variables/coefficients we are able to predict MPG with some degree of accuracy.
 
+## Summary Statistics on Suspension Coils
+The total summary table shows an acceptable level of variance overall. However, the lot summary table shows lot 3 to be unacceptable. Lot 1 and 2 (particularly lot 1) have a low enough variance to bring the total summary within the acceptable range.
+
