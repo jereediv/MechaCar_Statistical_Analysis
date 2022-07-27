@@ -1,20 +1,7 @@
 > setwd("C:/Users/Joel/Desktop/Class Folder/Analysis Projects/R_Analysis/MechaCar_Statistical_Analysis")
-> View(demo_table2)
 > library(dplyr) # Use the library() function to load the dplyr package.
 > # Import and read in the MechaCar_mpg.csv file as a dataframe.
-  > library(tideverse)
-Error in library(tideverse) : there is no package called ‘tideverse’
 > library(tidyverse)
-> mecha_mpg <- read.csv(file='./Resources/MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
-Error in file(file, "rt") : cannot open the connection
-In addition: Warning message:
-  In file(file, "rt") :
-  cannot open file './Resources/MechaCar_mpg.csv': No such file or directory
-> mecha_mpg <- read.csv(file='.MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
-Error in file(file, "rt") : cannot open the connection
-In addition: Warning message:
-  In file(file, "rt") :
-  cannot open file '.MechaCar_mpg.csv': No such file or directory
 > mecha_mpg <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
 > View(mecha_mpg)
 > # Perform linear regression using the lm() function. In the lm() function, pass in all six variables (i.e., columns), and add the dataframe you created in Step 4 as the data parameter.
@@ -65,4 +52,3 @@ Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 > View(mecha_mpg)
-
